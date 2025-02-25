@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main2 {
+    public static void main(String[] args) {
+
+        Scanner sherlock = new Scanner(System.in);
+        machinneNumber n = new machinneNumber();
+        int n1,n2;
+
+        System.out.println("Digite um número : ");
+        n1 = sherlock.nextInt();
+
+        System.out.println("Digite outro número : ");
+        n2 = sherlock.nextInt();
+
+
+
+        System.out.println("a soma dos seus números são: "+(n.total ));
+
+    }
+}
